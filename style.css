@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+padding: 0px;
+margin: 0px;
+}
+
+:root{
+--azulp: #1720FD;
+--azuls: #1453E3;
+--azult: #239DFA;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    color: white;
+    padding: 10px;
+background-image:linear-gradient(to bottom, #0c328a, #020572)
+
+}
+
+header>h2{
+margin-top: 10px;
+text-shadow: -2px 2px 2px black;
+}
+
+
+nav{
+    background-color:#030537 ;
+    padding: 10px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.459);
+    
+}
+
+nav>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 6px;
+    transition-duration: 0.3s;
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav>a:hover{
+background-color: #1453E3;
+color: #000235;
+
+}
+
+body{
+    height: 100%;
+    background-image:linear-gradient(180deg, #1453E3, #000235);
+    background-repeat: no-repeat;
+}
+main{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 200px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.645);
+}
+
+h1{
+    color: rgb(165, 191, 241);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+article p {
+    line-height: 2em;
+font-size: 0.9em;
+}
+
+article a {
+color: #020547;
+background-color: #5588ff;
+transition-duration: 0.2s;
+padding: 3px;
+
+}
+
+article a:hover{
+    color: #5588ff;
+background-color: #020547;
+text-decoration: underline;
+}
+
+footer{
+    background-color: #01021c;
+    color: white;
+    margin-top: 20px;
+    padding-top: 30px;
+    }
+    
+    footer p {
+    text-align: center;
+    margin-top: -25px;
+    
+    }
+
+p{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 0.84em;
+    text-align: justify;
+    text-indent: 23px;
+
+}
+
+aside h2{
+    background-color: #020572;
+    color: white;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 10px 10px 0px 0px;
+    text-indent: 20px;
+    margin-bottom: 10px;
+    
+}
+
+aside{
+    position: relative;
+    top: 178px;
+    padding: 10px;
+    background-color: #1452e389;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.387);
+   
+}
+
+aside>ul{
+    columns:2;
+    list-style-position: inside;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a#cev{
+    color: #239DFA;
+}
+
+a#cev:hover{
+    color: #0e16ea;
+}
+
+#cursoemvideo{
+    color: #239DFA;
+    font-family: 'Sriracha', cursive;
+    top: 2px;
+    transition-duration: 0.5s;
+    
+}
+
+#cursoemvideo:hover{
+background-color: #1453E3;
+border-radius: 10px;
+padding: 2px;
+
+}
+
+#css{
+    color: #1453E3;
+}
+#html{
+    color: orangered;
+}
+#csharp{
+    color: rgb(48, 1, 112);
+}
+#javascript{
+    color: yellow;
+}
+#java{
+    color: red;
+}
+#py{
+    color: rgb(4, 69, 173);
+}
+
+#thon{
+    color: rgb(191, 191, 0);
+}
+
+#imgl{
+position: relative;
+top: 40px;
+
+}
+
+#imglg{
+    position: relative;
+border: 2px solid black;
+margin-top: 10px;
+left: -8px;
+margin-bottom:10px;
+
+
+}
+
+#h1degrade{
+background-image: linear-gradient(to right, #05339d, transparent);
+padding-left: 5px;
+margin-bottom: 10px;
+}
+
+#h1deg{
+background-image: linear-gradient(to right, #1453E3, transparent);
+padding-left: 5px;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+
+#degh1{
+    color: rgb(165, 191, 241);
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.496);
+    background-image: linear-gradient(to right, #070147, transparent);
+padding-left: 5px;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+
+.container{
+    background-color: #0c328a;
+    padding: 80px;
+    padding-bottom: 500px;
+    padding-top: 31px;
+    margin-left: -20px;
+    margin-right: -20px;
+    position: relative;
+
+}
+
+div>iframe{
+position: absolute;
+top: 9%;
+left: 10%;
+width: 80%;
+height: 80%;
+
+}
+
